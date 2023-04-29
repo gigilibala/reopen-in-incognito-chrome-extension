@@ -1,0 +1,13 @@
+{
+  "name": "Incognito Opener",
+  "description": "A chrome extension for opening a tab in incognito mode",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Incognito Opener"
+  }
+}
